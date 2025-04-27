@@ -8,33 +8,45 @@
     body {
       margin: 0;
       padding: 0;
-      background-color: #ffffff;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
       color: #111;
       text-align: center;
     }
-    header {
-      padding: 50px 20px 20px 20px;
-    }
-    header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    header p {
-      font-size: 1.2em;
-      font-weight: 300;
-      margin-top: 10px;
-      color: #333;
-    }
     .book-cover {
-      margin-top: 40px;
+      margin-top: 60px;
     }
     .book-cover img {
       width: 300px;
       max-width: 90%;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       border-radius: 8px;
+    }
+    .section {
+      margin: 60px 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .section p, .section ul {
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #000;
+      font-weight: bold;
     }
     .button {
       display: inline-block;
@@ -53,21 +65,36 @@
     }
     footer {
       margin-top: 60px;
-      font-size: 0.8em;
+      padding: 20px;
+      font-size: 0.9em;
       color: #666;
-      padding-bottom: 20px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Dear Little Me</h1>
-  <p>Embracing Our ADHD — We Were Never Too Much, Never Not Enough.</p>
-</header>
-
 <div class="book-cover">
   <img src="book_cover_resized_for_web.png" alt="Dear Little Me Book Cover">
+</div>
+
+<div class="section">
+  <h2>About the Book</h2>
+  <p><em>Dear Little Me</em> is a powerful guide for anyone who ever felt \"too much\" or \"not enough.\" Patrycja Marta Jerushalmy shares her raw, unfiltered journey of embracing ADHD and unlocking the gifts of authenticity, resilience, and creativity. This is not just a story — it’s a roadmap to living free, original, and fully yourself.</p>
+</div>
+
+<div class="section">
+  <h2>What You'll Discover</h2>
+  <ul>
+    <li>How ADHD can be a superpower, not a flaw</li>
+    <li>Strategies to overcome perfectionism and self-doubt</li>
+    <li>Tools for thriving with authenticity and self-love</li>
+    <li>Real pathways to personal growth and emotional resilience</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>About the Author</h2>
+  <p>Patrycja Marta Jerushalmy is a passionate writer, entrepreneur, and advocate for authenticity, self-love, and personal growth. Through her bold journey of embracing ADHD, she empowers others to transform what once felt like \"too much\" into a source of strength, creativity, and freedom. Her mission is simple: to remind every soul that they are — and have always been — enough.</p>
 </div>
 
 <a href="#" class="button">Buy the Book Now</a>
