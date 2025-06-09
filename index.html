@@ -48,7 +48,23 @@
   }
   </script>
 
-  <!-- Styles (unchanged) -->
+  <!-- ✅ FAQ SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question","name": "Who is Dear Little Me really for?","acceptedAnswer": {"@type": "Answer","text": "This book is for anyone who’s ever felt like too much, too intense, too sensitive, too disorganized — and wondered why the world felt so loud and confusing..."}},
+      {"@type": "Question","name": "What makes this book different from every other ADHD book out there?","acceptedAnswer": {"@type": "Answer","text": "This isn’t a textbook or a checklist. It’s lived truth. It was written by a late-diagnosed woman — a single mama raising an ADHD son..."}},
+      {"@type": "Question","name": "Can this help me if I’m a parent of an ADHD child?","acceptedAnswer": {"@type": "Answer","text": "Absolutely. Patrycja writes from the trenches — not just as a writer or researcher, but as a mother living this daily..."}},
+      {"@type": "Question","name": "What if I already know a lot about ADHD — will I still learn something?","acceptedAnswer": {"@type": "Answer","text": "Yes — but not in the usual way. You won’t just learn the science. You’ll feel it..."}},
+      {"@type": "Question","name": "Does it talk about the emotional and sensory side of ADHD?","acceptedAnswer": {"@type": "Answer","text": "Yes — and deeply. It goes where most books don’t..."}},
+      {"@type": "Question","name": "Is this book just for women?","acceptedAnswer": {"@type": "Answer","text": "No. While Patrycja shares her story as a woman and a mother, the experiences inside are universal..."}},
+      {"@type": "Question","name": "What if I’ve felt broken for years? Can this book really help?","acceptedAnswer": {"@type": "Answer","text": "Yes, love — especially if you’ve felt broken. This book will meet you right where you are..."}}
+    ]
+  }
+  </script>
+
   <style>
     body {
       margin: 0;
@@ -93,15 +109,15 @@
       padding: 0;
     }
     ul li::before {
-      content: "• ";
+      content: "\2022 ";
       color: #000;
       font-weight: bold;
     }
     .button {
       display: inline-block;
-      margin-top: 40px;
-      padding: 14px 32px;
-      font-size: 1.2em;
+      margin: 20px;
+      padding: 16px 32px;
+      font-size: 1.1em;
       font-weight: 600;
       color: #fff;
       background-color: #000;
@@ -140,13 +156,11 @@
     }
   </style>
 </head>
-
 <body>
   <div class="container">
     <div class="book-cover">
       <img src="book_cover_resized_for_web.png" alt="Book cover of Dear Little Me by Patrycja Marta Jerushalmy">
     </div>
-
     <div class="section">
       <h2>About the Book</h2>
       <p><strong>Dear Little Me: Embracing Our ADHD</strong> isn’t just a book—it’s a mirror, a map, and a megaphone for every soul who’s ever felt like “too much,” “not enough,” or simply misunderstood.</p>
@@ -158,7 +172,6 @@
       <p>Because ADHD isn’t broken. It’s just a <strong>different operating system</strong>.<br>
       And this book? It’s your invitation to thrive.</p>
     </div>
-
     <div class="section">
       <h2>What You'll Discover</h2>
       <ul>
@@ -170,7 +183,6 @@
       </ul>
       <p>Whether you’re navigating your own ADHD or supporting someone you love, this book will help you <em>decode the patterns and rediscover the magic</em> underneath it all.</p>
     </div>
-
     <div class="section">
       <h2>About the Author</h2>
       <img src="author_photo.jpg" alt="Portrait of Patrycja Marta Jerushalmy" class="author-photo">
@@ -181,11 +193,11 @@
       To remind every soul that they are not too much.<br>
       They are <strong>exactly enough</strong>.</p>
     </div>
-
     <div class="section">
-      <a href="https://beoriginalbeyourself.gumroad.com/l/dearlittleme" class="button">Buy the eBook Now</a>
+      <a href="https://beoriginalbeyourself.gumroad.com/l/dearlittleme" class="button">📱 Buy the eBook – All Devices</a>
+      <a href="https://www.amazon.com/dp/1968275002" class="button">📖 Buy the Paperback on Amazon</a>
+      <a href="#" class="button">💛 #DearLittleMeAndOurADHD — Movement (Coming Soon)</a>
     </div>
-
     <footer>
       &copy; 2025 Patrycja Marta Jerushalmy — Be Original, Be Yourself
     </footer>
